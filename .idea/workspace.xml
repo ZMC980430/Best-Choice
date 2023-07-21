@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df2adfea-1719-447e-94e1-1448f5271b88" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/exception/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/exception/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/result/ResultCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/ActivityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/BillType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/CouponRangeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/CouponStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/CouponType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/PaymentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/ProcessStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/SkuType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/UserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/LeaderAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/LeaderBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/LeaderBill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/LeaderUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/LeaderWithdraw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/UserDelivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/UserLoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/acl/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/acl/AdminRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/acl/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/acl/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/acl/RolePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/activity/ActivityInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/activity/ActivityRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/activity/ActivitySku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/activity/CouponInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/activity/CouponRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/activity/CouponUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/activity/Seckill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/activity/SeckillSku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/activity/SeckillSkuNotice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/activity/SeckillTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/base/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/base/BaseMongoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/base/MqRepeatRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/order/CartInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/order/OrderDeliver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/order/OrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/order/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/order/OrderLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/order/OrderReturnApply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/order/OrderReturnReason.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/order/OrderSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/order/PaymentInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/order/RefundInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/product/Attr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/product/AttrGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/product/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/product/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/product/CommentReplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/product/SkuAttrValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/product/SkuImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/product/SkuInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/product/SkuPoster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/product/SkuStockHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/search/LeaderEs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/search/SkuEs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/sys/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/sys/RegionWare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/model/sys/Ware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/acl/AdminLoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/acl/AdminQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/acl/RoleQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/ActivityRuleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/CouponRuleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/SeckillQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/SeckillSkuNoticeVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/SeckillSkuQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/SeckillSkuVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/CartInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderConfirmVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderDeliverVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderItemMqVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderItemParamVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderMqVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderSubmitVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderUserQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/StockStatisticsVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/AttrGroupQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/CategoryQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/CategoryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/SkuInfoQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/SkuInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/SkuStockLockVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/SkuStockVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/WareQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/search/LeaderEsQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/search/SkuEsQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/sys/RegionVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/sys/RegionWareQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/LeaderAddressVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/LeaderBillQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/LeaderQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/LeaderVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/UserLoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/UserQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/WeixinVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/ServiceAclApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2SSl4n2QhQaVUDWDuDbdqtMetwh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "20",
+    "last_opened_file_path": "/Users/mac/IdeaProjects/BestChoice/model/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "1786bbae9ea550fd7ef8e1ead512c0bb",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "RunConfigurationTargetLRU": [
+      "9fd56435-af10-4857-b2bd-9699bdaddd31"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/model/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="shequ-acl.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$USER_HOME$/Documents/repositories/guigu-ssyx/sql/shequ-acl.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="9fd56435-af10-4857-b2bd-9699bdaddd31" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="数据库脚本.shequ-acl.sql" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="df2adfea-1719-447e-94e1-1448f5271b88" name="更改" comment="" />
+      <created>1689147673609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689147673609</updated>
+      <workItem from="1689147674615" duration="6772000" />
+      <workItem from="1689304195603" duration="9898000" />
+      <workItem from="1689587069570" duration="3283000" />
+      <workItem from="1689755873754" duration="3195000" />
+      <workItem from="1689815917471" duration="6218000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
