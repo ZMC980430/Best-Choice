@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@MapperScan("scan.bestchoice.*.mapper") // auto scan the mapper classes.
+@MapperScan("com.bestchoice.*.mapper") // auto scan the mapper classes.
 public class MybatisPlusConfig {
 
     /**
