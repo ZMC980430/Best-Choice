@@ -15,6 +15,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+import java.util.Map;
+
 @RestController
 @RequestMapping("/admin/acl/user")
 @Slf4j
@@ -48,9 +51,42 @@ public class AdminController {
     @ApiOperation("add user")
     @PostMapping("save")
     public Result<Object> save(@RequestBody Role role) {
-        boolean save = roleService.save(role);
-        if(save) return Result.ok(null);
-        else return Result.fail("add user failed");
+        if(roleService.save(role)) return Result.ok(null);
+        return Result.fail("add user failed");
+    }
+
+    @ApiOperation("modify role by id")
+    @PostMapping("update")
+    public Result<Object> update(@RequestBody Role role) {
+        if(roleService.updateById(role)) return Result.ok(null);
+        return Result.fail("update failed");
+    }
+
+    @ApiOperation("remove user by id")
+    @DeleteMapping("remove/{id}")
+    public Result<Object> remove(@PathVariable Long id){
+        if(roleService.removeById(id)) return Result.ok(null);
+        return Result.fail("delete role failed");
+    }
+
+    @DeleteMapping("remove users by batch of ids")
+    public Result<Object> batchRemove(@RequestBody List<Long> idList) {
+        if(roleService.removeByIds(idList)) return Result.ok(null);
+        return Result.fail("");
+    }
+
+    @ApiOperation(value = "根据用户获取角色数据")
+    @GetMapping("/toAssign/{adminId}")
+    public Result<Object> toAssign(@PathVariable Long adminId) {
+        Map<String, Object> roleMap = roleService.findRoleByUserId(adminId);
+        return Result.ok(roleMap);
+    }
+
+    @ApiOperation(value = "根据用户分配角色")
+    @PostMapping("/doAssign")
+    public Result<Object> doAssign(@RequestParam Long adminId,@RequestParam Long[] roleId) {
+        roleService.saveUserRoleRelationShip(adminId,roleId);
+        return Result.ok(null);
     }
 
     // TODO: unfinished apis, see src/api/acl/use.js

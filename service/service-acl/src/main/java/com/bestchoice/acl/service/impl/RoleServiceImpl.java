@@ -13,6 +13,8 @@ import com.bestchoice.vo.acl.RoleQueryVo;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
+import java.util.Map;
+
 @Service
 public class RoleServiceImpl extends ServiceImpl<RoleMapper, Role> implements RoleService {
 
@@ -24,5 +26,15 @@ public class RoleServiceImpl extends ServiceImpl<RoleMapper, Role> implements Ro
             wrapper.like(Role::getRoleName, roleName);
         }
         return baseMapper.selectPage(page, wrapper);
+    }
+
+    @Override
+    public void saveUserRoleRelationShip(Long adminId, Long[] roleIds) {
+        
+    }
+
+    @Override
+    public Map<String, Object> findRoleByUserId(Long adminId) {
+        return null;
     }
 }

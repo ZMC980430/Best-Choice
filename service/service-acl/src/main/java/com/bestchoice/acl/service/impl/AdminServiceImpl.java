@@ -32,7 +32,6 @@ public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements
             wrapper.like(Admin::getName,name);
         }
         //调用mapper方法
-        IPage<Admin> pageModel = baseMapper.selectPage(pageParam,wrapper);
-        return pageModel;
+        return baseMapper.selectPage(pageParam,wrapper);
     }
 }
