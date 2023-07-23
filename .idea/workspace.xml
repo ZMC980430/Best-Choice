@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df2adfea-1719-447e-94e1-1448f5271b88" name="更改" comment="Best choice setup">
+    <list default="true" id="df2adfea-1719-447e-94e1-1448f5271b88" name="更改" comment="Finish AdminController">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/impl/AdminRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/impl/AdminRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/RoleController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +49,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "spring.configuration.checksum": "1beb7c26905f7d1e6424502e0cfea75d",
     "vue.rearranger.settings.migration": "true"
   }
@@ -111,7 +109,7 @@
       <workItem from="1690076800226" duration="568000" />
       <workItem from="1690077386477" duration="2657000" />
       <workItem from="1690081165062" duration="8064000" />
-      <workItem from="1690112855878" duration="85000" />
+      <workItem from="1690112855878" duration="3011000" />
     </task>
     <task id="LOCAL-00001" summary="Best choice setup">
       <created>1689902546582</created>
@@ -120,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689902546582</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finish AdminController">
+      <option name="closed" value="true" />
+      <created>1690113192522</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690113192522</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +145,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Best choice setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Best choice setup" />
+    <MESSAGE value="Finish AdminController" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish AdminController" />
   </component>
 </project>

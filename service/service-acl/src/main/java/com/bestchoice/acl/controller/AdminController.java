@@ -88,6 +88,4 @@ public class AdminController {
         roleService.saveUserRoleRelationShip(adminId,roleId);
         return Result.ok(null);
     }
-
-    // TODO: unfinished apis, see src/api/acl/use.js
 }

@@ -21,8 +21,8 @@ public class RoleController {
     @Autowired
     private RoleService roleService;
 
-    @GetMapping("{page}/{limit}")
     @ApiOperation("Roles querying")
+    @GetMapping("{page}/{limit}")
     public Result<Object> index(@PathVariable Long page,
                                    @PathVariable Long limit,
                                    RoleQueryVo roleQueryVo){
@@ -30,6 +30,34 @@ public class RoleController {
         Page<Role> objectPage = new Page<>(page, limit);
         IPage<Role> roleIPage = roleService.selectPage(objectPage, roleQueryVo);
         return Result.ok(roleIPage);
+    }
+
+    @ApiOperation("save user")
+    @PostMapping("save")
+    public Result<Object> save(@RequestBody Role role) {
+        if(roleService.save(role)) return Result.ok(null);
+        return Result.fail("save failed");
+    }
+
+    public Result<Object> get() {
+        return null;
+    }
+
+    public Result<Object> getAssign() {
+        return null;
+    }
+
+
+    public Result<Object> toAssign() {
+        return null;
+    }
+
+    public Result<Object> remove() {
+        return null;
+    }
+
+    public Result<Object> batchRemove() {
+        return null;
     }
 
 
