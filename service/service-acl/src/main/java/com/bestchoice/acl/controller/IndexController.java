@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 import java.util.Map;
 
-@RestController
-@RequestMapping("/admin/acl/index")
+@Api(tags = "user login info")
 @CrossOrigin
 @Slf4j
-@Api(tags = "user login info")
+@RestController
+@RequestMapping("/admin/acl/index")
 public class IndexController {
 
     // match the api in frontend
