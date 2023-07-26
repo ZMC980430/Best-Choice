@@ -5,9 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df2adfea-1719-447e-94e1-1448f5271b88" name="更改" comment="Finish AdminController">
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/mapper/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/impl/PermissionServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/SkuType.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/SkuType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/Leader.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/Leader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/LeaderAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/LeaderAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/LeaderBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/LeaderBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/LeaderBill.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/LeaderBill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/LeaderUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/LeaderUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/LeaderWithdraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/LeaderWithdraw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/UserDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/UserDelivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/UserLoginLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/enums/user/UserLoginLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/acl/AdminLoginVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/acl/AdminLoginVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/acl/AdminQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/acl/AdminQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/acl/RoleQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/acl/RoleQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/ActivityRuleVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/ActivityRuleVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/CouponRuleVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/CouponRuleVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/SeckillQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/SeckillQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/SeckillSkuNoticeVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/SeckillSkuNoticeVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/SeckillSkuQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/SeckillSkuQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/SeckillSkuVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/activity/SeckillSkuVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/CartInfoVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/CartInfoVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderConfirmVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderConfirmVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderDeliverVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderDeliverVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderItemMqVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderItemMqVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderItemParamVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderItemParamVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderMqVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderMqVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderSubmitVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderSubmitVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderUserQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/OrderUserQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/StockStatisticsVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/order/StockStatisticsVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/AttrGroupQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/AttrGroupQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/CategoryQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/CategoryQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/CategoryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/CategoryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/SkuInfoQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/SkuInfoQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/SkuInfoVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/SkuInfoVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/SkuStockLockVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/SkuStockLockVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/SkuStockVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/SkuStockVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/WareQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/product/WareQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/search/LeaderEsQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/search/LeaderEsQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/search/SkuEsQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/search/SkuEsQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/sys/RegionVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/sys/RegionVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/sys/RegionWareQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/sys/RegionWareQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/LeaderAddressVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/LeaderAddressVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/LeaderBillQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/LeaderBillQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/LeaderQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/LeaderQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/LeaderVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/LeaderVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/UserLoginVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/UserLoginVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/UserQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/UserQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/WeixinVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/bestchoice/vo/user/WeixinVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/AdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/impl/RoleServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +100,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "1beb7c26905f7d1e6424502e0cfea75d",
     "vue.rearranger.settings.migration": "true"
   }
@@ -109,7 +167,9 @@
       <workItem from="1690076800226" duration="568000" />
       <workItem from="1690077386477" duration="2657000" />
       <workItem from="1690081165062" duration="8064000" />
-      <workItem from="1690112855878" duration="3011000" />
+      <workItem from="1690112855878" duration="3112000" />
+      <workItem from="1690250404052" duration="560000" />
+      <workItem from="1690250975353" duration="16990000" />
     </task>
     <task id="LOCAL-00001" summary="Best choice setup">
       <created>1689902546582</created>
@@ -126,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690113192522</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finish AdminController">
+      <option name="closed" value="true" />
+      <created>1690135725192</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690135725192</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

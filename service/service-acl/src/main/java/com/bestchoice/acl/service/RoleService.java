@@ -22,5 +22,5 @@ public interface RoleService extends IService<Role> {
      * @param adminId
      * @return
      */
-    Map<String, Object> findRoleByUserId(Long adminId);
+    Map<String, Object> findRoleByAdminId(Long adminId);
 }

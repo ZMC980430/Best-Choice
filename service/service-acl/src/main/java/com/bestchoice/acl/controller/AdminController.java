@@ -44,41 +44,42 @@ public class AdminController {
     @ApiOperation("get user by id")
     @GetMapping("get/{id}")
     public Result<Object> get(@PathVariable Long id) {
-        Role byId = roleService.getById(id);
+        Admin byId = adminService.getById(id);
         return Result.ok(byId);
     }
 
     @ApiOperation("add user")
     @PostMapping("save")
-    public Result<Object> save(@RequestBody Role role) {
-        if(roleService.save(role)) return Result.ok(null);
-        return Result.fail("add user failed");
+    public Result<Object> save(@RequestBody Admin admin) {
+        if(adminService.save(admin)) return Result.ok(null);
+        return Result.fail("add admin failed");
     }
 
     @ApiOperation("modify role by id")
     @PostMapping("update")
-    public Result<Object> update(@RequestBody Role role) {
-        if(roleService.updateById(role)) return Result.ok(null);
+    public Result<Object> update(@RequestBody Admin admin) {
+        if(adminService.updateById(admin)) return Result.ok(null);
         return Result.fail("update failed");
     }
 
-    @ApiOperation("remove user by id")
+    @ApiOperation("remove admin by id")
     @DeleteMapping("remove/{id}")
     public Result<Object> remove(@PathVariable Long id){
-        if(roleService.removeById(id)) return Result.ok(null);
+        if(adminService.removeById(id)) return Result.ok(null);
         return Result.fail("delete role failed");
     }
 
-    @DeleteMapping("remove users by batch of ids")
+    @ApiOperation("remove admins by batch of ids")
+    @PostMapping("batchRemove")
     public Result<Object> batchRemove(@RequestBody List<Long> idList) {
-        if(roleService.removeByIds(idList)) return Result.ok(null);
+        if(adminService.removeByIds(idList)) return Result.ok(null);
         return Result.fail("");
     }
 
     @ApiOperation(value = "根据用户获取角色数据")
     @GetMapping("/toAssign/{adminId}")
     public Result<Object> toAssign(@PathVariable Long adminId) {
-        Map<String, Object> roleMap = roleService.findRoleByUserId(adminId);
+        Map<String, Object> roleMap = roleService.findRoleByAdminId(adminId);
         return Result.ok(roleMap);
     }
 
