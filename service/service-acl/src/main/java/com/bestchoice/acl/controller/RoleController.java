@@ -8,9 +8,9 @@ import com.bestchoice.model.acl.Role;
 import com.bestchoice.vo.acl.RoleQueryVo;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 @RestController
@@ -19,7 +19,7 @@ import java.util.List;
 public class RoleController {
 
     private static final Logger log = org.slf4j.LoggerFactory.getLogger(RoleController.class);
-    @Autowired
+    @Resource
     private RoleService roleService;
 
     @ApiOperation("Roles querying")
@@ -78,6 +78,5 @@ public class RoleController {
         }
         return Result.fail("remove failed");
     }
-
 
 }

@@ -46,4 +46,8 @@ public class PermissionServiceImpl extends ServiceImpl<PermissionMapper, Permiss
             this.selectChildListById(item.getId(), idList);
         });
     }
+
+    public List<Permission> queryAdminPermission(Long id) {
+        return null;
+    }
 }

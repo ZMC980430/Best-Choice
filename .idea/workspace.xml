@@ -4,13 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df2adfea-1719-447e-94e1-1448f5271b88" name="更改" comment="delete lombok annotation&#10;add permission api">
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/helper/PermissionHelper.java" afterDir="false" />
+    <list default="true" id="df2adfea-1719-447e-94e1-1448f5271b88" name="更改" comment="finish acl module">
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/test/java/com/bestchoice/util/CodeGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/mapper/RolePermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/RolePermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/impl/RolePermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/ServiceSysApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/controller/RegionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/controller/RegionWareController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/controller/WareController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/entity/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/entity/RegionWare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/entity/Ware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/mapper/RegionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/mapper/RegionWareMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/mapper/WareMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/mapper/xml/RegionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/mapper/xml/RegionWareMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/mapper/xml/WareMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/service/RegionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/service/RegionWareService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/service/WareService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/service/impl/RegionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/service/impl/RegionWareServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/service/impl/WareServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/PermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/PermissionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/PermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/PermissionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/RoleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/impl/PermissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/impl/PermissionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/impl/RoleServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +60,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.10.5/springfox-core-2.10.5.jar!/springfox/documentation/builders/PathSelectors.class" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2SSl4n2QhQaVUDWDuDbdqtMetwh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,16 +91,23 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-18&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;1beb7c26905f7d1e6424502e0cfea75d&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5c02f8c2140ef8a75e04add26a9faa82&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/model/src/main/java" />
@@ -76,7 +120,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceAclApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceSysApplication">
+    <configuration name="CodeGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bestchoice.util.CodeGet" />
+      <module name="service-util" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bestchoice.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="shequ-acl.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$USER_HOME$/Documents/repositories/guigu-ssyx/sql/shequ-acl.sql" />
       <script-mode>FILE</script-mode>
@@ -96,9 +153,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceSysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="service-sys" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bestchoice.ServiceSysApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bestchoice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ServiceSysApplication" />
         <item itemvalue="Spring Boot.ServiceAclApplication" />
+        <item itemvalue="应用程序.CodeGet" />
         <item itemvalue="数据库脚本.shequ-acl.sql" />
       </list>
     </recent_temporary>
@@ -124,7 +197,11 @@
       <workItem from="1690250975353" duration="16990000" />
       <workItem from="1690336808919" duration="551000" />
       <workItem from="1690337399522" duration="18000" />
-      <workItem from="1690346890689" duration="9828000" />
+      <workItem from="1690346890689" duration="11382000" />
+      <workItem from="1690420399913" duration="10904000" />
+      <workItem from="1690440964076" duration="2414000" />
+      <workItem from="1690684931332" duration="20844000" />
+      <workItem from="1690783589192" duration="3607000" />
     </task>
     <task id="LOCAL-00001" summary="Best choice setup">
       <created>1689902546582</created>
@@ -157,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690336974827</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finish acl module">
+      <option name="closed" value="true" />
+      <created>1690360447082</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690360447082</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +263,7 @@
     <MESSAGE value="Best choice setup" />
     <MESSAGE value="Finish AdminController" />
     <MESSAGE value="delete lombok annotation&#10;add permission api" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete lombok annotation&#10;add permission api" />
+    <MESSAGE value="finish acl module" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish acl module" />
   </component>
 </project>

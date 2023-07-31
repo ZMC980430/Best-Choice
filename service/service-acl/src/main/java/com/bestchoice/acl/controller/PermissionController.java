@@ -1,6 +1,7 @@
 package com.bestchoice.acl.controller;
 
 import com.bestchoice.acl.service.PermissionService;
+import com.bestchoice.acl.service.RolePermissionService;
 import com.bestchoice.common.result.Result;
 import com.bestchoice.model.acl.Permission;
 import io.swagger.annotations.Api;
@@ -19,6 +20,9 @@ import java.util.List;
 public class PermissionController {
     @Resource
     private PermissionService permissionService;
+
+    @Resource
+    private RolePermissionService rolePermissionService;
 
     @ApiOperation(value = "获取菜单")
     @GetMapping
@@ -46,5 +50,12 @@ public class PermissionController {
     public Result<Object> remove(@PathVariable Long id) {
         if(permissionService.removeChildById(id)) return Result.fail("remove failed");
         return Result.ok(null);
+    }
+
+    @ApiOperation(value = "查看权限")
+    @PutMapping("toAssign/{roleId}")
+    public Result<Object> toAssign(@PathVariable Long roleId){
+//        rolePermissionService.
+        return null;
     }
 }

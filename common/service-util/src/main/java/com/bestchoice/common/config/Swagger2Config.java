@@ -69,7 +69,7 @@ public class Swagger2Config {
                 .select()
                 //只显示admin路径下的页面
                 .apis(RequestHandlerSelectors.basePackage("com.bestchoice"))
-                .paths(PathSelectors.regex("/admin/.*"))
+                .paths(PathSelectors.regex("/.*"))
                 .build()
                 .globalOperationParameters(pars);
     }

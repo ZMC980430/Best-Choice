@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @ControllerAdvice
-public class GlobalException {
+public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class) // exception handler
     @ResponseBody // return json
@@ -17,9 +17,9 @@ public class GlobalException {
 
     @ExceptionHandler(BaseException.class)
     @ResponseBody
-    public Result<String> error(BaseException e) {
+    public Result<String> baseHandler(BaseException e) {
         e.printStackTrace();
-        return  Result.fail("base exception");
+        return  Result.build(e.getCode(), e.getMessage());
     }
 
 }
