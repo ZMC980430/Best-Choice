@@ -4,44 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df2adfea-1719-447e-94e1-1448f5271b88" name="更改" comment="finish acl module">
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/test/java/com/bestchoice/util/CodeGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/mapper/RolePermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/RolePermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/impl/RolePermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/ServiceSysApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/controller/RegionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/controller/RegionWareController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/controller/WareController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/entity/Region.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/entity/RegionWare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/entity/Ware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/mapper/RegionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/mapper/RegionWareMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/mapper/WareMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/mapper/xml/RegionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/mapper/xml/RegionWareMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/mapper/xml/WareMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/service/RegionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/service/RegionWareService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/service/WareService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/service/impl/RegionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/service/impl/RegionWareServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/service/impl/WareServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="df2adfea-1719-447e-94e1-1448f5271b88" name="更改" comment="region ware">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/config/Swagger2Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/bestchoice/common/result/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/PermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/PermissionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/controller/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/impl/PermissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/com/bestchoice/acl/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/controller/RegionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/controller/RegionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/controller/RegionWareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/controller/RegionWareController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/controller/WareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/controller/WareController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/service/impl/RegionWareServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/com/bestchoice/system/service/impl/RegionWareServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +169,7 @@
       <workItem from="1690420399913" duration="10904000" />
       <workItem from="1690440964076" duration="2414000" />
       <workItem from="1690684931332" duration="20844000" />
-      <workItem from="1690783589192" duration="3607000" />
+      <workItem from="1690783589192" duration="11642000" />
     </task>
     <task id="LOCAL-00001" summary="Best choice setup">
       <created>1689902546582</created>
@@ -242,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690360447082</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="region ware">
+      <option name="closed" value="true" />
+      <created>1690788084737</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690788084737</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +240,7 @@
     <MESSAGE value="Finish AdminController" />
     <MESSAGE value="delete lombok annotation&#10;add permission api" />
     <MESSAGE value="finish acl module" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish acl module" />
+    <MESSAGE value="region ware" />
+    <option name="LAST_COMMIT_MESSAGE" value="region ware" />
   </component>
 </project>

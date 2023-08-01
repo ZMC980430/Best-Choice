@@ -33,7 +33,7 @@ public class RegionWareServiceImpl extends ServiceImpl<RegionWareMapper, RegionW
         String keyword = regionWareQueryVo.getKeyword();
 
         LambdaQueryWrapper<RegionWare> lambdaQueryWrapper = new LambdaQueryWrapper<>();
-        if(!StringUtil.isEmpty(keyword)) {
+        if (!StringUtil.isEmpty(keyword)) {
             lambdaQueryWrapper.like(RegionWare::getWareName, keyword).or().like(RegionWare::getRegionName, keyword);
         }
 
@@ -51,7 +51,7 @@ public class RegionWareServiceImpl extends ServiceImpl<RegionWareMapper, RegionW
         RegionWare ware = baseMapper.selectOne(lambdaQueryWrapper);
 
         // ware being null means no query result
-        if(ware != null) throw new BaseException(ResultCodeEnum.REGION_OPEN);
+        if (ware != null) throw new BaseException(ResultCodeEnum.REGION_OPEN);
         baseMapper.insert(regionWare);
         return true;
     }

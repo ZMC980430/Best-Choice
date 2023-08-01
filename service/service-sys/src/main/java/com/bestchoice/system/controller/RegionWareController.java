@@ -27,6 +27,7 @@ import javax.annotation.Resource;
 @RequestMapping("/admin/system/region-ware")
 @Api(tags = "region ware")
 @Slf4j
+@CrossOrigin
 public class RegionWareController {
     @Resource
     private RegionWareService regionWareService;
@@ -45,14 +46,14 @@ public class RegionWareController {
     @ApiOperation("update region")
     @PostMapping("update")
     public Result<Object> updateRegionWare(@RequestBody RegionWare regionWare) {
-        if(regionWareService.addRegion(regionWare))
+        if (regionWareService.addRegion(regionWare))
             return Result.ok(null);
         return Result.fail("failed");
     }
 
     @ApiOperation("delete region ware")
     @DeleteMapping("remove/{id}")
-    public Result<Object> delete(@PathVariable Long id){
+    public Result<Object> delete(@PathVariable Long id) {
         regionWareService.removeById(id);
         return Result.ok(null);
     }
@@ -64,4 +65,3 @@ public class RegionWareController {
         return Result.ok(null);
     }
 }
-
